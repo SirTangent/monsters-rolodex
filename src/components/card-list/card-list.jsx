@@ -1,16 +1,17 @@
 import React, {Fragment} from "react";
+import {Card} from "../card/card";
+
+import './card-list.css'
 
 export const CardList = (props) => {
     console.log(props);
     return (
-        <Fragment>
-            <h1>Monsters:</h1>
-            <hr/>
-            {(props.monsters) ? props.monsters.map(monster => (
-                <div>
-                    {monster.name}
-                </div>
-            )) : (<h3>No Monsters Found!</h3>)}
-        </Fragment>
+        <div className='card-list'>
+            {
+                props.monsters.map(monster => (
+                    <Card key={monster.id} monster={monster}/>
+                ))
+            }
+        </div>
     )
-}
+};
