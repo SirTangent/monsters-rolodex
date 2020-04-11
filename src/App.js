@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import tommy from './img/tommy.png';
 import './App.css';
 
+import {CardList} from "./components/card-list/card-list";
+import {Tommy} from "./components/tommy";
+
 class App extends Component {
   constructor() {
     super();
@@ -25,32 +28,11 @@ class App extends Component {
   }
 
   render() {
-
     return (
         <div className="App">
-          <div className="Tommy">
             <header className="App-header">
-              <img src={tommy} className="App-logo" alt="logo" />
-              <p>
-                {this.state.name} drank {this.state.consumed} {this.state.drink}{(this.state.consumed != 1) ? "s" : ""} for lunch.
-              </p>
-              <button onClick={() => {
-                if (this.state.consumed < this.state.limit) {
-                  this.setState({consumed: this.state.consumed + 1})
-                } else {
-                  console.log('Tommy has had enough soda!')
-                }}} disabled={this.state.consumed >= this.state.limit}>{(this.state.consumed < this.state.limit) ? "Drink Soda" : "Gordon, Im full"}</button>
-
-              <div className="monsters d-block">
-
-                <h3>Credits</h3>
-                <hr/>
-                {
-                  this.state.monsters.map(value => <p key={value.id}> {value.name} </p>)
-                }
-              </div>
+              <CardList name="Gordon" monsters={this.state.monsters}/>
             </header>
-          </div>
         </div>
     );
   }
