@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/monsters-rolodex/static/css/main.73fc47dc.chunk.css",
-    "main.js": "/monsters-rolodex/static/js/main.1046a33f.chunk.js",
-    "main.js.map": "/monsters-rolodex/static/js/main.1046a33f.chunk.js.map",
-    "runtime-main.js": "/monsters-rolodex/static/js/runtime-main.eea62ddf.js",
-    "runtime-main.js.map": "/monsters-rolodex/static/js/runtime-main.eea62ddf.js.map",
-    "static/js/2.7aaef059.chunk.js": "/monsters-rolodex/static/js/2.7aaef059.chunk.js",
-    "static/js/2.7aaef059.chunk.js.map": "/monsters-rolodex/static/js/2.7aaef059.chunk.js.map",
-    "index.html": "/monsters-rolodex/index.html",
-    "precache-manifest.3f123631f50c6ebe8257c1b75ecdcdf5.js": "/monsters-rolodex/precache-manifest.3f123631f50c6ebe8257c1b75ecdcdf5.js",
-    "service-worker.js": "/monsters-rolodex/service-worker.js",
-    "static/css/main.73fc47dc.chunk.css.map": "/monsters-rolodex/static/css/main.73fc47dc.chunk.css.map",
-    "static/js/2.7aaef059.chunk.js.LICENSE.txt": "/monsters-rolodex/static/js/2.7aaef059.chunk.js.LICENSE.txt",
-    "static/media/tommy.png": "/monsters-rolodex/static/media/tommy.ca20807d.png"
+    "main.css": "/react-bootcamp/static/css/main.73fc47dc.chunk.css",
+    "main.js": "/react-bootcamp/static/js/main.e5b487d1.chunk.js",
+    "main.js.map": "/react-bootcamp/static/js/main.e5b487d1.chunk.js.map",
+    "runtime-main.js": "/react-bootcamp/static/js/runtime-main.5d0d1d95.js",
+    "runtime-main.js.map": "/react-bootcamp/static/js/runtime-main.5d0d1d95.js.map",
+    "static/js/2.7aaef059.chunk.js": "/react-bootcamp/static/js/2.7aaef059.chunk.js",
+    "static/js/2.7aaef059.chunk.js.map": "/react-bootcamp/static/js/2.7aaef059.chunk.js.map",
+    "index.html": "/react-bootcamp/index.html",
+    "precache-manifest.f144066b924861bb1cf140fbf45f33f9.js": "/react-bootcamp/precache-manifest.f144066b924861bb1cf140fbf45f33f9.js",
+    "service-worker.js": "/react-bootcamp/service-worker.js",
+    "static/css/main.73fc47dc.chunk.css.map": "/react-bootcamp/static/css/main.73fc47dc.chunk.css.map",
+    "static/js/2.7aaef059.chunk.js.LICENSE.txt": "/react-bootcamp/static/js/2.7aaef059.chunk.js.LICENSE.txt",
+    "static/media/tommy.png": "/react-bootcamp/static/media/tommy.ca20807d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eea62ddf.js",
+    "static/js/runtime-main.5d0d1d95.js",
     "static/js/2.7aaef059.chunk.js",
     "static/css/main.73fc47dc.chunk.css",
-    "static/js/main.1046a33f.chunk.js"
+    "static/js/main.e5b487d1.chunk.js"
   ]
 }
